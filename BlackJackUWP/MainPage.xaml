@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="BlackJackUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlackJackUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Default" FocusVisualPrimaryBrush="Black">
+        <Button x:Name="DealButton" Content="Deal" Height="45" Margin="0,636,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click" HorizontalAlignment="Center" Background="#33FF0000"/>
+        <TextBox x:Name="PlayerCards" HorizontalAlignment="Left" Height="42" Margin="485,361,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.481,3" TextChanged="TextBox_TextChanged" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="847,320,0,0" Text="       Player Cards" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" SelectionChanged="TextBlock_SelectionChanged" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="845,93,0,0" Text="       Dealer Cards" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" SelectionChanged="TextBlock_SelectionChanged" FontSize="25"/>
+        <TextBox x:Name="DealerTotal" HorizontalAlignment="Center" Height="34" Margin="0,218,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" TextChanged="DealerTotal_TextChanged"/>
+        <TextBox x:Name="PlayerTotal" HorizontalAlignment="Center" Height="32" Margin="0,438,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="68"/>
+        <Button Content="HIT" Height="44" Margin="759,438,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click_1" Background="#33FFFF47"/>
+        <Button Content="STAY" Height="44" Margin="1072,438,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_2" RenderTransformOrigin="0.48,0.411" Background="#3300FF74"/>
+        <TextBox x:Name="DealerCards" HorizontalAlignment="Left" Height="43" Margin="485,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="DealerCards_TextChanged"/>
+        <TextBox x:Name="DealerCards2" HorizontalAlignment="Left" Height="43" Margin="682,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="DealerCards_TextChanged"/>
+        <TextBox x:Name="DealerCards3" HorizontalAlignment="Left" Height="43" Margin="880,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="DealerCards_TextChanged"/>
+        <TextBox x:Name="DealerCards4" HorizontalAlignment="Left" Height="43" Margin="1082,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="DealerCards_TextChanged"/>
+        <TextBox x:Name="DealerCards5" HorizontalAlignment="Left" Height="43" Margin="1290,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="DealerCards_TextChanged"/>
+        <TextBox x:Name="PlayerCards2" HorizontalAlignment="Left" Height="42" Margin="682,361,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.481,3" TextChanged="TextBox_TextChanged" IsReadOnly="True"/>
+        <TextBox x:Name="PlayerCards3" HorizontalAlignment="Left" Height="42" Margin="880,361,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.481,3" TextChanged="TextBox_TextChanged" IsReadOnly="True"/>
+        <TextBox x:Name="PlayerCards4" HorizontalAlignment="Left" Height="42" Margin="1082,361,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.481,3" TextChanged="TextBox_TextChanged" IsReadOnly="True" Background="#66000000"/>
+        <TextBox x:Name="PlayerCards5" HorizontalAlignment="Left" Height="42" Margin="1290,361,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.481,3" TextChanged="TextBox_TextChanged" IsReadOnly="True"/>
+        <TextBox x:Name="Results" HorizontalAlignment="Center" Margin="0,540,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBlock HorizontalAlignment="Left" Height="87" Margin="142,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="25"><Run Text="Dealer Hits on Soft 16"/><LineBreak/><Run Text="Dealer stays on Hard 16"/></TextBlock>
+
+    </Grid>
+</Page>

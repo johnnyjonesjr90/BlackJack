@@ -1,0 +1,9 @@
+C:\Users\Johnny\source\repos\BlackJackLibrary\bin\Debug\netstandard2.0\BlackJackLibrary.deps.json
+C:\Users\Johnny\source\repos\BlackJackLibrary\bin\Debug\netstandard2.0\BlackJackLibrary.dll
+C:\Users\Johnny\source\repos\BlackJackLibrary\bin\Debug\netstandard2.0\BlackJackLibrary.pdb
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.csprojAssemblyReference.cache
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.AssemblyInfoInputs.cache
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.AssemblyInfo.cs
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.dll
+C:\Users\Johnny\source\repos\BlackJackLibrary\obj\Debug\netstandard2.0\BlackJackLibrary.pdb
